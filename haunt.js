@@ -56,7 +56,7 @@ var setTopOrBottom = function(stuff, value) {
 };
 
 var letsGetThisWerewolfBarMitzvahStarted = function() {
-  var hauntees = $('body *:not(br)');
+  var hauntees = $('body *:visible');
   var haunteeIndex = Math.floor(Math.random() * hauntees.length);
   var hauntee = $(hauntees[haunteeIndex]);
 
